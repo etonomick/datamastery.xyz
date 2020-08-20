@@ -12,6 +12,12 @@ body {
 	background-color: #eceff1;
 	color: #000000;
 }
+a {
+	color: #12005e;
+}
+a:hover {
+	color: #4caf50;
+}
 h1, h2, h3 {
 	line-height: 1.1em;
 	letter-spacing: .015em;
