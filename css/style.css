@@ -270,7 +270,7 @@ input[type="button"]:hover {
 		font-size: 1em;
 	}
 	.features {
-		padding: 1em;
+		padding: 2em 1em;
 		flex-direction: column;
 	}
 	.features h2 {
