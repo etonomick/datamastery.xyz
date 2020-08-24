@@ -3,6 +3,7 @@ let contact = document.getElementById('contact')
 let task = document.getElementById('task')
 let button = document.getElementById('submit')
 let message = document.getElementById('message')
+let labels = document.getElementsByName('label')
 
 function submit() {
 	disable()
@@ -44,6 +45,9 @@ function display(text, error) {
 }
 
 function disable() {
+	for (let label of labels) {
+		label.style.opacity = '.3'
+	}
 	name.setAttribute('disabled', true)
 	contact.setAttribute('disabled', true)
 	task.setAttribute('disabled', true)
@@ -51,6 +55,9 @@ function disable() {
 }
 
 function enable() {
+	for (let label of labels) {
+		label.style.opacity = '1'
+	}
 	name.removeAttribute('disabled')
 	contact.removeAttribute('disabled')
 	task.removeAttribute('disabled')

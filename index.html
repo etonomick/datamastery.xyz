@@ -27,10 +27,13 @@
 					<p>Стоимость парсинга&nbsp;&mdash; от <span class="green">2&nbsp;000 рублей</span> за сайт.</p>
 				</div>
 				<div class="form">
-					<input type="text" name="name" value="" placeholder="Ваше имя" id="name" />
-						<input type="text" name="contact" value="" placeholder="Как с вами связаться" id="contact" />
-						<textarea placeholder="Опишите задачу" id="task" name="task"></textarea>
-						<input type="button" name="submit" value="Отправить заявку"  id="submit" onclick="submit()"/>
+					<label for="name" name="label">Как вас зовут</label>
+					<input type="text" name="name" value="" placeholder="Представьтесь, пожалуйста" id="name" />
+					<label for="contact" name="label">Как с вами связаться</label>
+					<input type="text" name="contact" value="" placeholder="Почта, телеграм или телефон" id="contact" />
+					<label for="task" name="label">Опишите задачу</label>
+					<textarea placeholder="Расскажите, что нужно парсить" id="task" name="task"></textarea>
+					<input type="button" name="submit" value="Отправить заявку"  id="submit" onclick="submit()"/>
 					<p id="message"></p>
 				</div>
 			</div>

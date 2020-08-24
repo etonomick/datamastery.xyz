@@ -94,6 +94,11 @@ h1, h2, h3 {
 	padding: 3em;
 	padding-top: 10em;
 }
+label {
+	margin-bottom: .25em;
+	color: #eceff1;
+	font-size: 1.25em;
+}
 .green {
 	color: #4caf50;
 }
@@ -150,9 +155,6 @@ h1 {
 	flex-direction: column;
 	border-radius: 1em;
 	padding-right: 0;
-}
-label {
-	color: black;
 }
 input, textarea {
 	appearance: none;
