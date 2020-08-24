@@ -246,6 +246,11 @@ input[type="button"]:hover {
 	margin-bottom: 1em;
 }
 
+.footer p {
+	font-size: 1em;
+	color: #546e7a;
+}
+
 @media (max-width: 720px) {
 	.navigation {
 		padding: 1em;
