@@ -9,7 +9,7 @@ function submit() {
 	disable()
 	message.style.display = 'block'
 	message.innerText = 'Отправка...'
-	fetch('https://api.datamastery.xyz/task', {
+	fetch('https://api.datamastery.xyz/.netlify/functions/task', {
 		method: 'POST',
 		cache: 'no-cache',
 		headers: {
