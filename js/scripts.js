@@ -28,8 +28,8 @@ function submit() {
 			display(response.errors[0].message, true)
 		}
 		else {
+			display('Заявка отправлена, свяжемся с вами в течение часа', false)
 			gtag_report_conversion('https://datamastery.xyz')
-			display('Заявка отправлена, свяжемся с вами в течение часа', false)	
 		}
 	}).catch(error => {
 		enable()
