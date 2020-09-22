@@ -257,12 +257,50 @@ input[type="button"]:hover {
 	margin-bottom: 1em;
 }
 
+.posts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 3em;
+}
+.post {
+	flex: 1 0 50%;
+	max-width: 50%;
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+.post h2 {
+	line-height: 1.4em;
+	letter-spacing: .015em;
+	margin-bottom: .5em;
+	font-weight: 700;
+}
+.post p {
+	margin-bottom: 1em;
+	font-size: 1.25em;
+	color: #546e7a;
+}
+.article {
+	padding: 3em;
+	padding-top: 8em;
+	padding-right: 30%;
+}
+.article h2 {
+	font-size: 3em;
+}
+.article p {
+	margin-bottom: 1em;
+	font-size: 1.25em;
+	color: #546e7a;
+}
+.article ul {
+	margin-bottom: 1em;
+	font-size: 1.25em;
+	color: #546e7a;
+}
 @media (max-width: 720px) {
 	.navigation {
-		padding: 2em;
-	}
-	.menu {
-		display: none;
+		padding: 1.5em 2em;
 	}
 	.header {
 		padding: 2em;
@@ -299,6 +337,33 @@ input[type="button"]:hover {
 	}
 	.feature h3 {
 		font-size: 1.5em;
+	}
+	.posts {
+		padding: 2em;
+		flex-direction: column;
+	}
+	.post {
+		max-width: 100%;
+	}
+	.article {
+		padding: 2em;
+		padding-top: 8em;
+	}
+	.article h1 {
+		font-size: 2em;
+	}
+	.article h2 {
+		font-size: 1.5em;
+	}
+	.article p {
+		margin-bottom: 1em;
+		font-size: 1.25em;
+		color: #546e7a;
+	}
+	.article ul {
+		margin-bottom: 1em;
+		font-size: 1.25em;
+		color: #546e7a;
 	}
 	.footer {
 		padding: 2em 2em;
