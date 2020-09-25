@@ -29,6 +29,7 @@ function submit() {
 		}
 		else {
 			display('Заявка отправлена, свяжемся с вами в течение часа', false)
+			gtag_report_conversion()
 		}
 	}).catch(error => {
 		enable()
