@@ -59,7 +59,7 @@
 					<input type="text" name="contact" value="" placeholder="Почта, телеграм или телефон" id="contact" />
 					<label for="task" name="label">Опишите задачу</label>
 					<textarea placeholder="Расскажите, что нужно парсить" id="task" name="task"></textarea>
-					<input type="button" name="submit" value="Отправить заявку"  id="submit" onclick="submit()"/>
+					<input type="button" name="submit" value="Отправить заявку"  id="submit" onclick="submit(); gtag_report_conversion('https://datamastery.xyz')"/>
 					<p id="message"></p>
 				</div>
 			</div>
