@@ -6,6 +6,7 @@ let message = document.getElementById('message')
 let labels = document.getElementsByName('label')
 
 function submit() {
+	gtag_report_conversion('https://datamastery.xyz')
 	disable()
 	message.style.display = 'block'
 	message.innerText = 'Отправка...'
