@@ -14,7 +14,6 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'UA-63354299-6');
-			gtag('config', 'AW-597800790');
 		</script>
 		
 		<!-- Event snippet for Заполнение заявки conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-597800790/tcekCLis6t8BENbuhp0C', 'event_callback': callback }); return false; } </script>
@@ -59,7 +58,7 @@
 					<input type="text" name="contact" value="" placeholder="Почта, телеграм или телефон" id="contact" />
 					<label for="task" name="label">Опишите задачу</label>
 					<textarea placeholder="Расскажите, что нужно парсить" id="task" name="task"></textarea>
-					<input type="button" name="submit" value="Отправить заявку"  id="submit" onclick="submit(); gtag_report_conversion('https://datamastery.xyz')"/>
+					<input type="button" name="submit" value="Отправить заявку"  id="submit" onclick="submit()"/>
 					<p id="message"></p>
 				</div>
 			</div>
