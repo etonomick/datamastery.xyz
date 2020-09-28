@@ -45,11 +45,11 @@ h1, h2, h3 {
 }
 #logo {
 	font-size: 1.25em;
-	padding-left: 1.50em;
+	/*padding-left: 1.50em;
 	background-image: url('../img/memoji.png');
 	background-repeat: no-repeat;
 	background-size: auto 1em;
-	background-position: 0 center;
+	background-position: 0 center;*/
 	text-decoration: none;
 	color: #eceff1;
 	font-weight: 700;
