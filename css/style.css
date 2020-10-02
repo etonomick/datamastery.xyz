@@ -97,6 +97,9 @@ h1, h2, h3 {
 	padding: 3em;
 	padding-top: 10em;
 }
+p.footnote {
+	font-size: 1em!important;
+}
 label {
 	margin-bottom: .25em;
 	color: #eceff1;
